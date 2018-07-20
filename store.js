@@ -50,6 +50,6 @@ const store = new Proxy({}, {
 
 store.collection = StoreCollection;
 
-export const name = 'meteor-proxy-store';
+export const name = 'merlin:proxy-store';
 export {store};
 export default store;
